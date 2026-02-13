@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SecureBank Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style1.css">
+<style>
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="topbar">
+    <div class="brand">🏦 SecureBank</div>
+    <div class="nav-right">
+          <div class="notification">
+            🔔
+            <span class="badge">3</span>
+        </div>
+        <img class="avatar" src="Images/754debc058a8e96a90504a0712928f2f5c5cb1f4.png">
+    </div>
+</header>
+
+<div class="dashboard">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div>
+            <div class="user">
+                <img src="Images/754debc058a8e96a90504a0712928f2f5c5cb1f4.png">
+                <span>GAYTHIRI N</span>
+            </div>
+
+            <nav>
+                <a class="active" href="dashbord.html">Dashboard</a>
+                <a href="account.html">Accounts</a>
+                <a href="payment.html">Payments</a>
+                <a href="tranfer.html">Transfers</a>
+                <a href="statement.html">Statements</a>
+                <a href="card.html">Cards</a>
+            </nav>
+        </div>
+
+        <div>
+            <nav>
+                <a href="help.html">Help and Support</a>
+                <a href="prof.html">Profile Settings</a>
+            </nav>
+        </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+        <div class="welcome">Welcome back, GAYTHIRI N</div>
+
+        <div class="overview-card">
+            <h3>Account Overview</h3>
+            <img src="Images/Depth 5, Frame 0.jpg">
+            <div class="account">**** **** **** 2380</div>
+
+            <div class="actions">
+                <button onclick="window.location.href='sendmny.html'">Transfer Money</button>
+                <button onclick="window.location.href='payment.html'">Pay Bills</button>
+                <button onclick="window.location.href='transaction.html'">View Transactions</button>
+            </div>
+        </div>
+
+        <div class="transactions">
+            <h3>Recent Transactions</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Sent To</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr><td>2024-01-15</td><td>Grocery Store Purchase</td><td>UID-100023456666</td><td class="neg">-$75.50</td></tr>
+                    <tr><td>2024-01-14</td><td>Salary Deposit</td><td>UID-100033366666</td><td class="pos">+$3,500.00</td></tr>
+                    <tr><td>2024-01-12</td><td>Online Shopping</td><td>UID-100012345678</td><td class="neg">-$120.00</td></tr>
+                    <tr><td>2024-01-10</td><td>Restaurant Bill</td><td>UID-100145678912</td><td class="neg">-$60.75</td></tr>
+                    <tr><td>2024-01-08</td><td>ATM Withdrawal</td><td>UID-100156796543</td><td class="neg">-$200.00</td></tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+<footer class="footer">
+
+    <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Features</a>
+        <a href="#">Contact</a>
+        <span class="disclaimer">Disclaimer: This is a mock UI</span>
+    </div>
+
+    <div class="copyright">
+        © 2026 Online Banking Mock. All rights reserved.
+    </div>
+
+</footer>
+
+</body>
+</html>

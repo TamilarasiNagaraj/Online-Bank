@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SecureBank Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="payemnt.css">
+<style>
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="topbar">
+    <div class="brand">🏦 SecureBank</div>
+    <div class="nav-right">
+        <div class="bell">🔔</div>
+        <img class="avatar" src="Images/754debc058a8e96a90504a0712928f2f5c5cb1f4.png">
+    </div>
+</header>
+
+<div class="dashboard">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div>
+            <div class="user">
+                <img src="Images/754debc058a8e96a90504a0712928f2f5c5cb1f4.png">
+                <span>Emily Carter</span>
+            </div>
+
+            <nav>
+                <a  href="dashbord.html">Dashboard</a>
+                <a  href="account.html">Accounts</a>
+                <a class="active" href="payment.html">Payments</a>
+                <a href="tranfer.html">Transfers</a>
+                <a href="statement.html">Statements</a>
+                <a href="card.html">Cards</a>
+            </nav>
+        </div>
+
+        <div>
+            <nav>
+               <a href="help.html">Help and Support</a>
+                <a href="prof.html">Profile Settings</a>
+            </nav>
+        </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+<main class="content payments-page">
+
+    <div class="title-box">Bill Payments</div>
+
+    <h4 class="section-label">Select a bill type</h4>
+
+    <div class="bill-types">
+        <div class="bill active">Electricity</div>
+        <div class="bill">Water</div>
+        <div class="bill">Internet</div>
+        <div class="bill">Mobile</div>
+    </div>
+
+    <div class="form-area">
+
+        <select class="input-box">
+            <option>Select your provider</option>
+            <option>TNEB</option>
+            <option>Airtel</option>
+            <option>Jio</option>
+            <option>BSNL</option>
+        </select>
+
+        <input class="input-box" type="text" placeholder="Enter your account number">
+
+    </div>
+
+    <div class="pay-action">
+        <button onclick="window.location.href='payment1.html'">Proceed to pay</button>
+    </div>
+
+</main>
+
+
+
+</div>
+<footer class="footer">
+
+    <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Features</a>
+        <a href="#">Contact</a>
+        <span class="disclaimer">Disclaimer: This is a mock UI</span>
+    </div>
+
+    <div class="copyright">
+        © 2026 Online Banking Mock. All rights reserved.
+    </div>
+
+</footer>
+
+</body>
+</html>

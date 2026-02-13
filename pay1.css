@@ -1,0 +1,68 @@
+/* confirm title */
+.confirm-title{
+    font-size:26px;
+    color:white;
+    margin:30px 0 20px 0;
+}
+
+/* confirm box */
+.confirm-box{
+    max-width:650px;
+    border-top:1px solid #cfd3dc;
+    border-bottom:1px solid #cfd3dc;
+    padding:20px 0;
+}
+
+.confirm-box .row{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 0;
+}
+
+.confirm-box label{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.confirm-box p{
+    margin-top:6px;
+    font-weight:500;
+    color:#2e3440;
+}
+
+.confirm-box hr{
+    border:none;
+    border-top:1px solid #cfd3dc;
+}
+
+/* total bold */
+.total p{
+    font-size:18px;
+    font-weight:600;
+}
+
+/* buttons */
+.confirm-actions{
+    margin-top:40px;
+    display:flex;
+    gap:20px;
+    justify-content:center;
+}
+
+.confirm-actions .pay{
+    background:linear-gradient(to right,#2e3440,#73819E);
+    border:none;
+    padding:12px 40px;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.confirm-actions .cancel{
+    background:#2e3440;
+    border:none;
+    padding:12px 40px;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SecureBank Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
+<style>
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="topbar">
+    <div class="brand">🏦 SecureBank</div>
+    <div class="nav-right">
+          <div class="notification">
+            🔔
+            <span class="badge">3</span>
+        </div>
+        <img class="avatar" src="Images/754debc058a8e96a90504a0712928f2f5c5cb1f4.png">
+    </div>
+</header>
+<main class="content transfer-page">
+
+    <h2 class="page-title">Send Money</h2>
+
+    <form class="transfer-form">
+
+        <div class="form-group">
+            <label>From account</label>
+            <input type="text" value="Checking - ****2380" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Account Number</label>
+            <input type="text" placeholder="Enter account number">
+        </div>
+
+        <div class="form-group">
+            <label>Amount</label>
+            <input type="number" placeholder="Enter amount">
+        </div>
+
+        <div class="form-group">
+            <label>Remarks</label>
+            <input type="text" placeholder="Optional">
+        </div>
+
+        <div class="transfer-action">
+            <button type="button" onclick="window.location.href='payemntsend.html'">Transfer</button>
+        </div>
+
+    </form>
+
+</main>

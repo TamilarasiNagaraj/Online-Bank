@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #A4A4B2;
+    height: 100vh;
+}
+
+/* Top Bar */
+.topbar {
+    background: #A4A4B2;
+    color:  #292E38;
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border:2px solid white;
+}
+
+.logo span {
+    margin-left: 8px;
+}
+
+/* Center Container */
+.container {
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card */
+.login-card {
+    width: 620px;
+    padding: 20px;
+    border-radius: 8px;
+    background: transparent;
+    text-align: center;
+}
+
+.login-card h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    color: #eff1f5;
+    font-size: 14px;
+    margin: 15px 0 6px;
+    
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    outline: none;
+    background: #485478;   /* correct color */
+    color: #ffffff;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+
+input::placeholder {
+    color: #C7CCD6;
+}
+
+/* Remember me */
+.remember {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #292E38;
+    font-size: 14px;
+}
+
+.remember input {
+    margin-right: 8px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+
+    background: linear-gradient(to right, #292E38, #73819E);
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+/* Forgot password */
+.forgot {
+    margin-top: 18px;
+    color: white;
+    font-size: 13px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* TRANSFER PAGE */
+.transfer-page{
+    padding:10px 30px;
+   text-align: center;
+}
+
+/* title */
+.page-title{
+    font-size:26px;
+    font-weight:600;
+    color:#ffffff;
+    margin-bottom:25px;
+}
+
+/* form */
+.transfer-form{
+    max-width:700px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+/* label */
+.form-group{
+    margin-bottom:22px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:8px;
+    font-size:14px;
+    color:#2e3440;
+}
+
+/* input fields */
+.form-group input{
+    width:100%;
+    padding:14px;
+    border-radius:6px;
+    border:none;
+    background:#4f5c83;
+    color:white;
+    font-size:14px;
+}
+
+.form-group input::placeholder{
+    color:#cbd5e1;
+}
+
+/* readonly field */
+.form-group input[readonly]{
+    opacity:0.8;
+}
+
+/* button right side */
+.transfer-action{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:30px;
+}
+
+.transfer-action button{
+    background:linear-gradient(to right,#2e3440,#73819E);
+    border:none;
+    padding:10px 22px;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:500;
+}
+/* container */
+.success-container{
+    text-align:center;
+}
+
+/* title */
+.success-title{
+    font-size:28px;
+    font-weight:600;
+    color:white;
+    margin-bottom:35px;
+}
+
+/* circle icon */
+.success-icon{
+    width:90px;
+    height:90px;
+    background:#e5e7eb;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 25px auto;
+}
+
+.success-icon span{
+    font-size:40px;
+    color:#6b7280;
+}
+
+/* details */
+.success-details{
+    color:#374151;
+    margin-bottom:30px;
+    line-height:28px;
+    font-size:14px;
+}
+
+/* button */
+.success-btn{
+    margin-top:15px;
+}
+
+.success-btn button{
+    background-color: none;
+    border:none;
+    padding:10px 22px;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:500;
+    width:170px;
+}

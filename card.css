@@ -1,0 +1,50 @@
+/* CARDS PAGE */
+.cards-page{
+    flex:1;
+    padding:10px 20px;
+}
+
+/* section */
+.card-section{
+    margin-top:20px;
+}
+
+.card-section h4{
+    margin-bottom:10px;
+    color:#374151;
+}
+
+/* row layout */
+.card-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 0;
+}
+
+/* info */
+.card-info h5{
+    margin-bottom:6px;
+}
+
+.card-info p{
+    color:#6b7280;
+    margin-bottom:8px;
+}
+
+/* manage button */
+.manage-btn{
+    background:#2e3440;
+    color:white;
+    border:none;
+    padding:6px 14px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* card image */
+.card-img{
+    width:180px;
+    border-radius:10px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}

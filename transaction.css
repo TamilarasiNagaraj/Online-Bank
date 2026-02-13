@@ -1,0 +1,60 @@
+/* TRANSACTION PAGE */
+.transaction-page{
+    flex:1;
+    padding:10px 20px;
+}
+
+/* filters */
+.filters{
+    display:flex;
+    gap:10px;
+    margin:15px 0;
+}
+.title-box{
+     background: #A4A4B2;
+}
+.filters select{
+    padding:6px 10px;
+    border-radius:6px;
+    border:none;
+    background:#2e3440;
+    color:white;
+}
+
+/* table box */
+.table-box{
+    background: #A4A4B2;
+    border:1px solid #cfd3dc;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+/* table */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#5b6b8c;
+    color:white;
+    padding:12px;
+    text-align:left;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #cfd3dc;
+    color:#2e3440;
+}
+
+/* amount colors */
+.credit{
+    color:#343534;
+    font-weight:600;
+}
+
+.debit{
+    color:#504e4e;
+    font-weight:600;
+}

@@ -1,0 +1,74 @@
+/* HELP PAGE */
+.help-page{
+    flex:1;
+    padding:10px 20px;
+}
+
+/* titles */
+.section-title{
+    margin:20px 0 10px;
+    color:#374151;
+}
+
+/* faq grid */
+.faq-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:12px;
+    margin-bottom:20px;
+}
+
+.faq-card{
+    background:#4f5c83;
+    color:white;
+    padding:14px;
+    border-radius:6px;
+    font-size:13px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.faq-card.active{
+    border:2px solid #f97316;
+}
+
+/* support */
+.support-box{
+    background:#e6e8ee;
+    border:1px solid #cfd3dc;
+    border-radius:8px;
+    padding:10px;
+}
+
+.support-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px;
+    border-bottom:1px solid #cfd3dc;
+}
+
+.support-row:last-child{
+    border-bottom:none;
+}
+
+.icon{
+    width:28px;
+    height:28px;
+    background:#2e3440;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:6px;
+}
+
+/* chat button */
+.chat-btn{
+    background:#2e3440;
+    color:white;
+    padding:8px 16px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}

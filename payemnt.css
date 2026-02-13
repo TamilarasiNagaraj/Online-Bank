@@ -1,0 +1,82 @@
+/* PAYMENTS PAGE */
+.payments-page{
+    flex:1;
+    padding:10px 20px;
+}
+
+/* title */
+.title-box{
+    background:#e6e8ee;
+    border:1px solid #cfd3dc;
+    border-radius:10px;
+    padding:18px;
+    font-size:22px;
+    font-weight:600;
+    color:#3c4454;
+    margin-bottom:20px;
+}
+
+/* section text */
+.section-label{
+    margin-bottom:12px;
+    color:#4b5563;
+}
+
+/* bill types */
+.bill-types{
+    display:flex;
+    gap:40px;
+    margin-bottom:40px;
+}
+
+.bill{
+    padding-bottom:6px;
+    color:#6b7280;
+    cursor:pointer;
+    border-bottom:3px solid transparent;
+}
+
+.bill.active{
+    border-bottom:3px solid #73819E;
+    color:#2e3440;
+}
+
+/* form area */
+.form-area{
+    max-width:350px;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+/* inputs */
+.input-box{
+    width:100%;
+    padding:14px;
+    border-radius:6px;
+    border:none;
+    background:#4f5c83;
+    color:white;
+    font-size:14px;
+    outline:none;
+}
+
+.input-box::placeholder{
+    color:#cbd5e1;
+}
+
+/* button right */
+.pay-action{
+    margin-top:40px;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.pay-action button{
+    background:linear-gradient(to right,#2e3440,#73819E);
+    border:none;
+    padding:10px 22px;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
